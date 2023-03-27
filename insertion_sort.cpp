@@ -8,7 +8,7 @@ int main(){
             /*
             so i continuously grows upto the index of last element every loop. j works it's way down from
             i to 0 in each loop, so we access the array in reverse, one element extra in each loop
-            now, we want our array to be in the descending order, so we run the inner loop till it encounters
+            now, we want our array to be in the ascending order, so we run the inner loop till it encounters
             an index where the next index (to the left) is lesser than the given index, at this point it stops.
             you see since we continuously grow from 0 to last index (in form of i), it is always ensured that
             the array is sorted upto the current value of i, in each iteration we take access to one additional
